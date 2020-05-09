@@ -1,0 +1,94 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.btn-theme{
+    background-color: #004677!important;
+    color: #fff!important;
+    border-color: #004677!important;
+}
+.btn-theme:hover {
+
+transform: translate(10px, 0px)!important;
+transition: .5s!important;
+}
+.text-theme{
+    color: #004677!important;
+}
+.pt-25{
+    padding-top: 4.8rem!important;
+}
+.bg-property{
+background-color: #004677!important;
+background-repeat: no-repeat!important;
+position: relative!important;
+background-size: contain!important;
+height: 200px!important;
+}
+.height{
+height: 108.3px!important;
+}
+.w-25{
+width: 25%!important;
+}
+.navbar-custom{
+position: absolute!important;
+}
+.text-vcenter{
+position: relative!important;
+top: 50%!important;
+transform: translate(0, -50%)!important;
+}
+
+.bg-Chairman{
+background-image: url(/images/cman.png)!important;
+}
+.bg-history{
+background-image: url(/images/vps.png)!important;
+background-position: center!important;
+}
+.bg-why-us{
+background-image: url('/images/bg/why-us.png')!important;
+background-position: center!important;
+background-size: cover!important;
+}
+
+.bg-5{
+background-image: url('/images/bg/5.jpg')
+}
+
+.bg-3{
+background-image: url('/images/bg/3.jpg')
+}
+
+.section-title{
+background-image: url('/images/bg/1.jpg')    
+}
+.section-title > .h1{
+padding: 2rem!important;
+text-align: center!important;
+margin-bottom: 0!important;
+font-size: 1.5rem!important;
+font-weight: bold!important;
+}
+
+@media (max-width: 992px){
+.text-vcenter{
+    display: block!important;
+}
+}
+@media (max-width: 991px){
+.text-vcenter{
+    display: none!important;
+}
+}
+@media (max-width:767px){
+.text-vcenter{
+    display: block!important;
+}
+}
